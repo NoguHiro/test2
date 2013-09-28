@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 group :development, :test do
-	#gem 'sqlite3'
+	gem 'sqlite3'
 	gem 'rake'
 end
 
@@ -12,7 +12,7 @@ group :test do
 end
 
 group :production do
-	#gem 'pg'
+	gem 'pg'
 	gem 'rails_12factor'
 end
 
