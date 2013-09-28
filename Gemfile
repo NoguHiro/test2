@@ -6,7 +6,7 @@ group :development, :test do
 end
 
 group :test do
-	gem 'rake'
+	#gem 'rake'
 	#gem 'rspec-rails'
 	#gem 'capybara'
 end
